@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+@font-face {
+    font-family: ramon;
+    src: url(font/White\ On\ Black.ttf);
+}
+
+html{
+    margin-left: 60px;
+    margin-right: 60px;
+    font-family: ramon;
+    font-size: 20px;
+}
+h1{
+    font-size: 3rem;
+}
+
+header, footer{
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;/* horizontal */
+    justify-content: space-around/* vertical */;
+}
+
+img{
+    width: 100%;
+}
+
+.Logo{
+    width: 120px;
+    padding: 15px;
+ 
+}
+.Logo img{
+    border-radius: 50%;
+    border: 2px rgb(233, 0, 0);
+}
+nav{
+    background-color:  rgb(71,61, 138); 
+    padding: 15px;  
+
+
+}
+
+nav a{
+    background-color: darksalmon;
+    color: black;
+    padding: 6px 10px;
+    text-decoration: none;
+    box-shadow: 1px 3px 15px 5px black;
+    border-radius: 15px;
+}
+
+nav a:hover{
+
+    background-color: black;
+    color: purple;
+}
+main{
+    /* background-color: darkgray; */
+    min-height: 100vh;
+     background-image: url(images/fondo.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 30px 0;
+    /* background: linear-gradient( rgb(54, 51, 71)); */
+} 
+.cuadro-px{
+    width: 500px;
+    height: 330px;
+    padding: 20px;
+    margin: 25px auto;
+    background-color: rgba(160, 82, 45, 0.3);
+    border: 2px solid brown;
+
+}
+.cuadro-rem{
+    width: 31.25rem;
+    height: 20.625rem;
+    padding: 1.25rem;
+    margin: 1.5625rem auto;
+    background-color: rgba(160, 82, 45, 0.3);
+    border: .125rem solid brown;
+
+
+}
+
+.em{
+    font-size: 30px;
+
+
+}
+.cuadro-em{
+    width: 31.25em;
+    height: 20.625em;
+    padding: 1.25em;
+    margin: 1.5625em auto;
+    background-color: rgba(160, 82, 45, 0.3);
+    border: .125em solid brown;
+
+
+}
+
+.columnas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     gap: 3%; 
+
+}
+
+.columnas .dos{
+    width: 30%;
+    
+}
